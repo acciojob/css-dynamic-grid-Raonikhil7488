@@ -23,6 +23,12 @@ body {
     align-items: center;
 }
 
+
+@media screen and (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+}
 .grid-item {
     background-color: lightgray;
     width: 200px;
